@@ -10,7 +10,6 @@ function App() {
         <Route path="/" component={Home} exact/>
         <Route path="/signin" component={SigninPage} exact/>
       </Switch>
-      <Home/>
       <GlobalStyles/>
     </Router>
   );
